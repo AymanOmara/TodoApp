@@ -6,17 +6,33 @@
 //
 
 #import "AppDelegate.h"
+#import <UserNotifications/UserNotifications.h>
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UNUserNotificationCenterDelegate>
 
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
-    return YES;
+-(void)userNotificationCenter:(UNUserNotificationCenter *)center willPresentNotification:(UNNotification *)notification withCompletionHandler:(void (^) (UNNotificationPresentationOptions))completionHandler{
+
+UNNotificationPresentationOptions presentationOptions = UNNotificationPresentationOptionSound +UNNotificationPresentationOptionAlert;
+
+completionHandler(presentationOptions);
+
+}
+
+-(BOOL)application:(UIApplication*)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
+// Override point for customization after application launch.
+
+UNUserNotificationCenter *center = [UNUserNotificationCenter currentNotificationCenter];
+
+center.delegate = self;
+
+return YES;
+
 }
 
 

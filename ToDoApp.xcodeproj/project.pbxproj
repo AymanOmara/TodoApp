@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED82E3D9261B991100E69D1B /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3D8261B991100E69D1B /* AddViewController.m */; };
+		ED82E3E1261BA26C00E69D1B /* ToDoList.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3E0261BA26C00E69D1B /* ToDoList.m */; };
+		ED82E3E5261BACD200E69D1B /* ToDoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3E4261BACD200E69D1B /* ToDoModel.m */; };
+		ED82E3E9261D084700E69D1B /* DoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3E8261D084700E69D1B /* DoneViewController.m */; };
+		ED82E3EE261D0FB200E69D1B /* InProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3ED261D0FB200E69D1B /* InProgressViewController.m */; };
+		ED82E3F2261D1C6500E69D1B /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED82E3F1261D1C6500E69D1B /* DetailedViewController.m */; };
 		ED9BCA6B261B072800C8DBFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BCA6A261B072800C8DBFD /* AppDelegate.m */; };
 		ED9BCA6E261B072800C8DBFD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BCA6D261B072800C8DBFD /* SceneDelegate.m */; };
 		ED9BCA71261B072800C8DBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BCA70261B072800C8DBFD /* ViewController.m */; };
@@ -14,9 +20,24 @@
 		ED9BCA76261B072900C8DBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9BCA75261B072900C8DBFD /* Assets.xcassets */; };
 		ED9BCA79261B072900C8DBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9BCA77261B072900C8DBFD /* LaunchScreen.storyboard */; };
 		ED9BCA7C261B072900C8DBFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED9BCA7B261B072900C8DBFD /* main.m */; };
+		EDF39AE72623D2F500101E82 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED81E1A7261E00AF00D8685C /* UserNotifications.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7728CF261FBF6400D52393 /* MyProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocol.h; sourceTree = "<group>"; };
+		ED81E1A7261E00AF00D8685C /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		ED82E3D7261B991100E69D1B /* AddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		ED82E3D8261B991100E69D1B /* AddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
+		ED82E3DF261BA26C00E69D1B /* ToDoList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoList.h; sourceTree = "<group>"; };
+		ED82E3E0261BA26C00E69D1B /* ToDoList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoList.m; sourceTree = "<group>"; };
+		ED82E3E3261BACD200E69D1B /* ToDoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToDoModel.h; sourceTree = "<group>"; };
+		ED82E3E4261BACD200E69D1B /* ToDoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoModel.m; sourceTree = "<group>"; };
+		ED82E3E7261D084700E69D1B /* DoneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoneViewController.h; sourceTree = "<group>"; };
+		ED82E3E8261D084700E69D1B /* DoneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoneViewController.m; sourceTree = "<group>"; };
+		ED82E3EC261D0FB200E69D1B /* InProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InProgressViewController.h; sourceTree = "<group>"; };
+		ED82E3ED261D0FB200E69D1B /* InProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InProgressViewController.m; sourceTree = "<group>"; };
+		ED82E3F0261D1C6500E69D1B /* DetailedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		ED82E3F1261D1C6500E69D1B /* DetailedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		ED9BCA66261B072800C8DBFD /* ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9BCA69261B072800C8DBFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED9BCA6A261B072800C8DBFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +50,7 @@
 		ED9BCA78261B072900C8DBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED9BCA7A261B072900C8DBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED9BCA7B261B072900C8DBFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDF39AE52623D2F000101E82 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF39AE72623D2F500101E82 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED81E1A6261E00AF00D8685C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF39AE52623D2F000101E82 /* UserNotificationsUI.framework */,
+				ED81E1A7261E00AF00D8685C /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED9BCA5D261B072800C8DBFD = {
 			isa = PBXGroup;
 			children = (
 				ED9BCA68261B072800C8DBFD /* ToDoApp */,
 				ED9BCA67261B072800C8DBFD /* Products */,
+				ED81E1A6261E00AF00D8685C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +105,19 @@
 				ED9BCA77261B072900C8DBFD /* LaunchScreen.storyboard */,
 				ED9BCA7A261B072900C8DBFD /* Info.plist */,
 				ED9BCA7B261B072900C8DBFD /* main.m */,
+				ED82E3D7261B991100E69D1B /* AddViewController.h */,
+				ED82E3D8261B991100E69D1B /* AddViewController.m */,
+				ED82E3DF261BA26C00E69D1B /* ToDoList.h */,
+				ED82E3E0261BA26C00E69D1B /* ToDoList.m */,
+				ED82E3E3261BACD200E69D1B /* ToDoModel.h */,
+				ED82E3E4261BACD200E69D1B /* ToDoModel.m */,
+				ED82E3E7261D084700E69D1B /* DoneViewController.h */,
+				ED82E3E8261D084700E69D1B /* DoneViewController.m */,
+				ED82E3EC261D0FB200E69D1B /* InProgressViewController.h */,
+				ED82E3ED261D0FB200E69D1B /* InProgressViewController.m */,
+				ED82E3F0261D1C6500E69D1B /* DetailedViewController.h */,
+				ED82E3F1261D1C6500E69D1B /* DetailedViewController.m */,
+				ED7728CF261FBF6400D52393 /* MyProtocol.h */,
 			);
 			path = ToDoApp;
 			sourceTree = "<group>";
@@ -145,9 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED82E3E9261D084700E69D1B /* DoneViewController.m in Sources */,
+				ED82E3F2261D1C6500E69D1B /* DetailedViewController.m in Sources */,
+				ED82E3D9261B991100E69D1B /* AddViewController.m in Sources */,
 				ED9BCA71261B072800C8DBFD /* ViewController.m in Sources */,
 				ED9BCA6B261B072800C8DBFD /* AppDelegate.m in Sources */,
 				ED9BCA7C261B072900C8DBFD /* main.m in Sources */,
+				ED82E3EE261D0FB200E69D1B /* InProgressViewController.m in Sources */,
+				ED82E3E5261BACD200E69D1B /* ToDoModel.m in Sources */,
+				ED82E3E1261BA26C00E69D1B /* ToDoList.m in Sources */,
 				ED9BCA6E261B072800C8DBFD /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
